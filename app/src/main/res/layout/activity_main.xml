@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:weightSum="1">
+
+    <Button
+        android:id="@+id/photo_album"
+        android:text="GetPhoto"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+
+
+    <ImageView
+        android:id="@+id/imageID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ProgressBar
+        android:id="@+id/progressbr"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/OCRTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OCR Text will appear here..."
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@android:color/black" />
+    <!--android:background="#dedede"-->
+</LinearLayout>
