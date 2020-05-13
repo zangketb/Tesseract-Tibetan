@@ -3,7 +3,7 @@
 * Android Studio 安卓开发工具，被墙了下面是国内地址
 http://www.android-studio.org/
 但感觉还是jetbrains的IDE比较牛逼  http://www.jetbrains.com
-* Android NDK 不知道的自行度娘
+* Android NDK 不知道的自行度娘
 * Tesseract-OCR项目地址
 https://github.com/tesseract-ocr/tesseract
 * 语言包地址
